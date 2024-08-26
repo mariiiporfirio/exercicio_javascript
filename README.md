@@ -1,8 +1,8 @@
 # Curso Senac Desenvolvedor FullStack
 
-<h3>Exercício JavaScript 1</h3>
+<h3>Exercício JavaScript 1</h3><br><br>
 
-<h4>Instruções:<br><br></h4>
+<h4>Instruções:<br></h4>
 
 1. Crie uma variável para armazenar seu nome completo.<br>
 2. Crie uma variável para armazenar se você gosta de programar (true ou false).<br>
@@ -29,4 +29,4 @@
 18. Crie um programa que simule uma calculadora simples. O usuário deve inserir dois números e um operador (+, -, *, /). Utilize a estrutura switch para realizar a operação correspondente e exibir o resultado.<br>
 19. Ao final suba o arquivo javascript no seu github em um repositorio chamado exercícios javascript.<br><br>
 
-<h6>Irei sortear o exercício onde o aluno irá explicar via Teams como chegou na conclusão. Essa atividade é individual.</h6>
+<h5>Irei sortear o exercício onde o aluno irá explicar via Teams como chegou na conclusão. Essa atividade é individual.</h6>
