@@ -28,4 +28,5 @@ Instruções:<br>
     b. Imprima o tipo da variável no console.<br>
 18. Crie um programa que simule uma calculadora simples. O usuário deve inserir dois números e um operador (+, -, *, /). Utilize a estrutura switch para realizar a operação correspondente e exibir o resultado.<br>
 19. Ao final suba o arquivo javascript no seu github em um repositorio chamado exercícios javascript.<br><br>
-Irei sortear o exercício onde o aluno irá explicar via Teams como chegou na conclusão. Essa atividade é individual. 
+
+<h2>Irei sortear o exercício onde o aluno irá explicar via Teams como chegou na conclusão. Essa atividade é individual. 
