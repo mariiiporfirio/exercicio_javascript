@@ -44,6 +44,7 @@ Instruções:
 
 18. Crie um programa que simule uma calculadora simples. O usuário deve inserir dois números e um operador (+, -, *, /). Utilize a estrutura switch para realizar a operação correspondente e exibir o resultado.
 
-19. Ao final suba o arquivo javascript no seu github em um repositorio chamado exercícios javascript. 
+19. Ao final suba o arquivo javascript no seu github em um repositorio chamado exercícios javascript.
+
 
 Irei sortear o exercício onde o aluno irá explicar via Teams como chegou na conclusão. Essa atividade é individual. 
