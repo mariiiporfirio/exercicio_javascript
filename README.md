@@ -1,6 +1,6 @@
 # Curso Senac Desenvolvedor FullStack
 
-<h3>Exercício JavaScript 1</h3><br><br>
+<h3>Exercício JavaScript 1</h3><br>
 
 <h4>Instruções:<br></h4>
 
