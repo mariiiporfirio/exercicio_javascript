@@ -9,7 +9,7 @@ Instruções:<br>
 3. Dadas as operações matemáticas abaixo, calcule-as utilizando Javascript, para cada número utilizar uma variável.<br>
 4. 2 + (3 x 4) - 5<br>
 5. 2 x (3 + 4) - 5 ÷ 5<br>
-6 .{[(10 - 4) / 2] * 3} + 1<br>
+6.{[(10 - 4) / 2] * 3} + 1<br>
 7. 3 * 4 / 2 + 1 - 5<br>
 8. Crie um poema utilizando interpolação para inserir variáveis em diferentes linhas.<br>
 9. Crie um programa que exiba a data atual formatada utilizando interpolação.<br>
