@@ -33,7 +33,7 @@ Instruções:
 
 15. Crie uma variável para armazenar um array com seus hobbies
  
-16. Crie um array chamado frutas com os nomes de 5 frutas diferentes.
+16. Crie um array chamado frutas com os nomes de 5 frutas diferentes.<br>
     a. Acesse e imprima o segundo elemento do array.
     b. Adicione mais duas frutas ao final do array.
     c. Remova a primeira fruta do array.
