@@ -34,12 +34,12 @@ Instruções:
 15. Crie uma variável para armazenar um array com seus hobbies
  
 16. Crie um array chamado frutas com os nomes de 5 frutas diferentes.<br>
-    a. Acesse e imprima o segundo elemento do array.
-    b. Adicione mais duas frutas ao final do array.
+    a. Acesse e imprima o segundo elemento do array.<br>
+    b. Adicione mais duas frutas ao final do array.<br>
     c. Remova a primeira fruta do array.
 
-17. Crie uma variável e atribua um valor de qualquer tipo (número, string, booleano).
-    a. Utilize o operador typeof para verificar o tipo da variável.
+17. Crie uma variável e atribua um valor de qualquer tipo (número, string, booleano).<br>
+    a. Utilize o operador typeof para verificar o tipo da variável.<br>
     b. Imprima o tipo da variável no console.
 
 18. Crie um programa que simule uma calculadora simples. O usuário deve inserir dois números e um operador (+, -, *, /). Utilize a estrutura switch para realizar a operação correspondente e exibir o resultado.
