@@ -52,18 +52,77 @@ console.log(`Hoje é dia ${data_short}.`);
 console.log("___________________________________________________");
 
 //Crie um programa que calcule a área de um retângulo, solicitando a base e a altura ao usuário. Exiba o resultado utilizando interpolação
-console.log("");
+let altura = prompt("Digite a altura do retângulo:");
+let base = prompt("Digite a largura do retângulo:");
+let area_retangulo = base * altura
+
+console.log(`A área do retângulo é ${area_retangulo} !`);
 console.log("___________________________________________________");
 
 //Crie uma condicional para verificar se o caractere é uma vogal
+let letra = "m";
+
+switch (letra) {
+    case "a":
+        console.log("A letra é uma vogal !");
+        break;
+    case "e":
+        console.log("A letra é uma vogal !");
+        break;
+    case "i":
+        console.log("A letra é uma vogal !");
+        break;
+    case "o":
+        console.log("A letra é uma vogal !");
+        break;
+    case "u":
+        console.log("A letra é uma vogal !");
+        break;
+    default:
+        console.log("A letra e uma consoante !"); 
+        break;
+}
+console.log("___________________________________________________");
+
 
 //Crie uma condicional para verificar se o número é par ou é impar
 
+
 //Crie uma condicional if else if else para verificar se um triângulo é equilátero, isósceles ou escaleno.
+let ladoA = 10;
+let ladoB = 12;
+let ladoC = 18;
+
+if (ladoA === ladoB && ladoA === ladoC) {
+    console.log("Equilátero.");
+} else if (ladoA === ladoB && ladoA !== ladoC) {
+    console.log("Isósceles.");
+} else {
+    console.log("Escaleno.");
+}
+console.log("___________________________________________________");
 
 //Calcule a média do aluno e verifique se ele foi aprovado
+let media = prompt("Digite a sua nota:");
+console.log(`Sua média é ${media}.`)
+
+switch (true) {
+    case (media<= 6 && media >= 0):
+        console.log("Você foi reprovado !");
+        break;
+    case (media >= 7 && media <= 10):
+        console.log("Você foi aprovado !");
+        break;
+    default:
+        console.log("Dados inválidos !")
+        break;
+}
+console.log("___________________________________________________");
 
 // Crie uma variável para armazenar um array com seus hobbies
+const hobbies = ["Ler", "Filmes", "Séries"];
+console.log(hobbies);
+console.log("___________________________________________________");
 
 /* 
 Crie um array chamado frutas com os nomes de 5 frutas diferentes.
@@ -71,13 +130,18 @@ Acesse e imprima o segundo elemento do array.
 Adicione mais duas frutas ao final do array.
 Remova a primeira fruta do array.
 */
+const frutas = ["Maça", "Uva", "Banana", "Melão", "Limão"];
+console.log(frutas[1])
+frutas.push("Laranja", "Pitanga");
+console.log(frutas);
+frutas.shift();
+console.log(frutas);
+console.log("___________________________________________________");
 
 /* Crie uma variável e atribua um valor de qualquer tipo (número, string, booleano).
 Utilize o operador typeof para verificar o tipo da variável.
 Imprima o tipo da variável no console.*/
+let variavel = 14.25;
+console.log(`A variavel ${variavel} é um tipo de ${typeof variavel}.`);
 
 /* Crie um programa (Switch) que simule uma calculadora simples. O usuário deve inserir dois números e um operador (+, -, *, /). Utilize a estrutura switch para realizar a operação correspondente e exibir o resultado. */
-
-/*Ao final suba o arquivo javascript no seu github em um repositorio chamado exercícios javascript. 
-
-Irei sortear o exercício onde o aluno irá explicar via Teams como chegou na conclusão. Essa atividade é individual.*/
