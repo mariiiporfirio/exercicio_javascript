@@ -79,14 +79,25 @@ switch (letra) {
         console.log("A letra é uma vogal !");
         break;
     default:
-        console.log("A letra e uma consoante !"); 
+        console.log("A letra é uma consoante !"); 
         break;
 }
 console.log("___________________________________________________");
 
 
 //Crie uma condicional para verificar se o número é par ou é impar
+var numero_tipo = 20;
+var numero_ultimo = numero_tipo.toString().slice(-1);
 
+switch (numero_ultimo) {
+    case "0": case "2": case "4": case "6": case "8":
+        console.log(`O número ${numero_tipo} é um número par !`);
+        break;
+    case "1": case "3": case "5": case "7": case "9":
+        console.log(`O número ${numero_tipo} é um número ímpar !`);
+        break;
+}
+console.log("___________________________________________________");
 
 //Crie uma condicional if else if else para verificar se um triângulo é equilátero, isósceles ou escaleno.
 let ladoA = 10;
@@ -104,14 +115,13 @@ console.log("___________________________________________________");
 
 //Calcule a média do aluno e verifique se ele foi aprovado
 let media = prompt("Digite a sua nota:");
-console.log(`Sua média é ${media}.`)
 
 switch (true) {
-    case (media<= 6 && media >= 0):
-        console.log("Você foi reprovado !");
+    case (media <= 6 && media > 0):
+        console.log(`Sua média é ${media}, você foi reprovado !`);
         break;
     case (media >= 7 && media <= 10):
-        console.log("Você foi aprovado !");
+        console.log(`Sua média é ${media}, você foi aprovado !`);
         break;
     default:
         console.log("Dados inválidos !")
@@ -124,12 +134,10 @@ const hobbies = ["Ler", "Filmes", "Séries"];
 console.log(hobbies);
 console.log("___________________________________________________");
 
-/* 
-Crie um array chamado frutas com os nomes de 5 frutas diferentes.
+/* Crie um array chamado frutas com os nomes de 5 frutas diferentes.
 Acesse e imprima o segundo elemento do array.
 Adicione mais duas frutas ao final do array.
-Remova a primeira fruta do array.
-*/
+Remova a primeira fruta do array.*/
 const frutas = ["Maça", "Uva", "Banana", "Melão", "Limão"];
 console.log(frutas[1])
 frutas.push("Laranja", "Pitanga");
@@ -142,6 +150,29 @@ console.log("___________________________________________________");
 Utilize o operador typeof para verificar o tipo da variável.
 Imprima o tipo da variável no console.*/
 let variavel = 14.25;
-console.log(`A variavel ${variavel} é um tipo de ${typeof variavel}.`);
+console.log(`A variavel ${variavel} é um tipo de "${typeof variavel}".`);
+console.log("___________________________________________________");
 
 /* Crie um programa (Switch) que simule uma calculadora simples. O usuário deve inserir dois números e um operador (+, -, *, /). Utilize a estrutura switch para realizar a operação correspondente e exibir o resultado. */
+var numero_primeiro = parseFloat(prompt("Informe um número:"));
+var operador_logico = prompt("Informe um dos seguintes operadores lógicos: + ; - ; / ; *.");
+var numero_segundo = parseFloat(prompt("Informe outro número:"));
+
+switch (operador_logico) {
+    case "+":
+        console.log(`O resultado de ${numero_primeiro} + ${numero_segundo} é: ` + (numero_primeiro + numero_segundo));
+        break;
+    case "-":
+        console.log(`O resultado de ${numero_primeiro} + ${numero_segundo} é: ` + (numero_primeiro - numero_segundo));
+        break;
+    case "/":
+        console.log(`O resultado de ${numero_primeiro} + ${numero_segundo} é: ` + (numero_primeiro / numero_segundo));
+        break;
+    case "*":
+        console.log(`O resultado de ${numero_primeiro} + ${numero_segundo} é: ` + (numero_primeiro * numero_segundo));
+        break;
+    default:
+        console.log("Operador inválido.")
+        break;
+}
+console.log("___________________________________________________")
