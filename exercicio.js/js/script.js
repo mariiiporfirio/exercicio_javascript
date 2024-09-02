@@ -23,7 +23,7 @@ console.log(resultado1);
 console.log("___________________________________________________");
 
 //2 x (3 + 4) - 5 ÷ 5
-let resultado2 = numero_b * (numero_c + numero_d) - (numero_e / numero_e);
+let resultado2 = numero_b * (numero_c + numero_d) - numero_e / numero_e;
 console.log(resultado2);
 console.log("___________________________________________________");
 
