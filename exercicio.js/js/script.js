@@ -47,7 +47,7 @@ console.log("___________________________________________________");
 
 //Crie um programa que exiba a data atual formatada utilizando interpolação
 const data = new Date();
-let data_short = (data.getDate()) + "/0" + (data.getMonth() + 1) + "/" + (data.getFullYear());
+let data_short = (data.getDate()) + (data.getMonth() + 1) + "/" + (data.getFullYear());
 console.log(`Hoje é dia ${data_short}.`);
 console.log("___________________________________________________");
 
@@ -63,19 +63,7 @@ console.log("___________________________________________________");
 let letra = "m";
 
 switch (letra) {
-    case "a":
-        console.log("A letra é uma vogal !");
-        break;
-    case "e":
-        console.log("A letra é uma vogal !");
-        break;
-    case "i":
-        console.log("A letra é uma vogal !");
-        break;
-    case "o":
-        console.log("A letra é uma vogal !");
-        break;
-    case "u":
+    case "a": case "e": case "i": case "o": case "u":
         console.log("A letra é uma vogal !");
         break;
     default:
