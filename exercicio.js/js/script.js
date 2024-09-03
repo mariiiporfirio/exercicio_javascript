@@ -47,7 +47,7 @@ console.log("___________________________________________________");
 
 //Crie um programa que exiba a data atual formatada utilizando interpolação
 const data = new Date();
-let data_short = (data.getDate()) + (data.getMonth() + 1) + "/" + (data.getFullYear());
+let data_short = (data.getDate()) + "/" + (data.getMonth() + 1) + "/" + (data.getFullYear());
 console.log(`Hoje é dia ${data_short}.`);
 console.log("___________________________________________________");
 
@@ -74,8 +74,9 @@ console.log("___________________________________________________");
 
 
 //Crie uma condicional para verificar se o número é par ou é impar
-var numero_tipo = 20;
+var numero_tipo = 251.53;
 var numero_ultimo = numero_tipo.toString().slice(-1);
+console.log(`O último caractere da string é: ${numero_ultimo}.`);
 
 switch (numero_ultimo) {
     case "0": case "2": case "4": case "6": case "8":
@@ -148,16 +149,16 @@ var numero_segundo = parseFloat(prompt("Informe outro número:"));
 
 switch (operador_logico) {
     case "+":
-        console.log(`O resultado de ${numero_primeiro} + ${numero_segundo} é: ` + (numero_primeiro + numero_segundo));
+        console.log(`O resultado de ${numero_primeiro} ➕ ${numero_segundo} é: ` + (numero_primeiro + numero_segundo));
         break;
     case "-":
-        console.log(`O resultado de ${numero_primeiro} + ${numero_segundo} é: ` + (numero_primeiro - numero_segundo));
+        console.log(`O resultado de ${numero_primeiro} ➖ ${numero_segundo} é: ` + (numero_primeiro - numero_segundo));
         break;
     case "/":
-        console.log(`O resultado de ${numero_primeiro} + ${numero_segundo} é: ` + (numero_primeiro / numero_segundo));
+        console.log(`O resultado de ${numero_primeiro} ➗ ${numero_segundo} é: ` + (numero_primeiro / numero_segundo));
         break;
     case "*":
-        console.log(`O resultado de ${numero_primeiro} + ${numero_segundo} é: ` + (numero_primeiro * numero_segundo));
+        console.log(`O resultado de ${numero_primeiro} ✖️ ${numero_segundo} é: ` + (numero_primeiro * numero_segundo));
         break;
     default:
         console.log("Operador inválido.")
